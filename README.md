@@ -1,7 +1,7 @@
 # School_District_Analysis
 
 ## Project Overview 
-In this project, the task was to work with city school district data for analysis, reporting, and presentation to provide insights about performance trends and patterns. These insights are used to inform discussions and strategic decisions at the school and district level. I was given access to every student's math and reading scores, as well as various information on the schools they attend. My task was to aggregate the data and showcase trends in school performance. Looking more specifically at this, I followed the following steps to achieve this goal:
+In this project, the task was to work with city school district data for analysis, reporting, and presentation to provide insights about performance trends and patterns. These insights are used to inform discussions and strategic decisions at the school and district level. I was given access to every student's math and reading scores, as well as various information on the schools they attend. My task was to use Python with the Pandas library to aggregate the data and showcase trends in school performance. Looking more specifically at this, I followed the following steps to achieve this goal:
 
 1. Collect the Data: displaying the data by building a path to the data file and creating a dataframe to display the data.
 2. Prepare the Data: After the removal of null values, isna().sum() displays 0 for all the columns. After the removal of duplicates, duplicated().sum() displays no duplicates. The column types are displayed. The "th" suffix is removed from all the values in the "grade" column. The "grade" column is successfully converted to an int type. 
